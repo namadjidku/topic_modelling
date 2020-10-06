@@ -25,6 +25,7 @@ Following is an overall scheme of the algorithm:
 ![image1]
 
 By comparing the generated fake documents with the real ones, we can compute the error and backpropogate it to compute the gradient and move the points to reduce the error:
+
 ![image2]
 
 Implementation of LDA is not the part of the project, the described logic is carried out by the library gensim. 
