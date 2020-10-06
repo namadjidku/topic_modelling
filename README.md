@@ -19,7 +19,7 @@ Convert document (a list of words) into the bag-of-words format = list of (token
 
 Following is an overall scheme of the algorithm: 
 
-[image1]: ./LDA.jpg
+[image1]: ./LDA.jpg=250x
 [image2]: ./training.png
 
 ![image1]
