@@ -19,4 +19,4 @@ Following is an overall scheme of the algorithm:
 
 [image1]: ./LDA.jpg
 
-[image1]
+![image1]
