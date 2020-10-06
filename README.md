@@ -15,8 +15,16 @@ To process the dataset the following steps were performed:
 * Words are **lemmatized** - words in third person are changed to first person and verbs in past and future tenses are changed into present.
 * Words are **stemmed** - words are reduced to their root form.
 
+Convert document (a list of words) into the bag-of-words format = list of (token_id, token_count) 2-tuples. Each word is assumed to be a tokenized and normalized string (either unicode or utf8-encoded). 
+
 Following is an overall scheme of the algorithm: 
 
 [image1]: ./LDA.jpg
+[image2]: ./training.jpg
 
 ![image1]
+
+By comparing the generated fake documents with the real ones, we can compute the error and backpropogate it to compute the gradient and move the points to reduce the error:
+![image2]
+
+Implementation of LDA is not the part of the project, the described logic is carried out by the library gensim. 
