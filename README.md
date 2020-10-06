@@ -17,4 +17,6 @@ To process the dataset the following steps were performed:
 
 Following is an overall scheme of the algorithm: 
 
-./LDA.jpg
+[image1]: ./LDA.jpg
+
+[image1]
